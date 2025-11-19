@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Permission Button */
+#permission-btn {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background: #007bff;
+    color: white;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+/* Map Area */
+#map {
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    position: relative;
+}
+
+/* Blue Dot */
+#blue-dot {
+    width: 25px;
+    height: 25px;
+    background: blue;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
